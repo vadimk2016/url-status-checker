@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Login</title>
+        <link rel="stylesheet" href="https://unpkg.com/picnic">
+        <style>html {padding-top:12.5%; text-align: center}</style>
+    </head>
+    <body>
+        <div class="login_wrapper">
+            <form method="post">
+                {% csrf_token %}
+                <table align="center" cellspacing="8">
+                    {{ form.as_table }}
+                 </table>
+                <button type="submit" class="login_button_wrapper">Login</button>
+            </form>
+        </div>
+    </body>
+</html>

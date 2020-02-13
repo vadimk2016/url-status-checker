@@ -1,0 +1,110 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$180000$AG86IsECaznB$nfW8OPbP2UsrDNLMIVN8kkeeU//WCSizAV1cTRGDvpw=",
+        "last_login": "2020-02-13T11:07:23.857Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2020-02-13T07:28:45.236Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "main.urlmodel",
+    "pk": 1,
+    "fields": {
+        "url": "http://google.com",
+        "status": 404,
+        "state": true
+    }
+},
+{
+    "model": "main.urlmodel",
+    "pk": 2,
+    "fields": {
+        "url": "http://bing.com",
+        "status": 404,
+        "state": true
+    }
+},
+    {
+    "model": "main.urlmodel",
+    "pk": 3,
+    "fields": {
+        "url": "https://www.galilcol.ac.il/",
+        "status": 404,
+        "state": true
+    }
+},
+    {
+    "model": "main.urlmodel",
+    "pk": 4,
+    "fields": {
+        "url": "http://www.isa.gov.il/",
+        "status": 404,
+        "state": true
+    }
+},
+    {
+    "model": "main.urlmodel",
+    "pk": 5,
+    "fields": {
+        "url": "http://www.noontidepress.com/",
+        "status": 404,
+        "state": true
+    }
+},
+    {
+    "model": "main.urlmodel",
+    "pk": 6,
+    "fields": {
+        "url": "https://www.haaretz.co.il/",
+        "status": 404,
+        "state": true
+    }
+},
+    {
+    "model": "main.urlmodel",
+    "pk": 7,
+    "fields": {
+        "url": "https://www.youtube.com/watch?v=jMxV1-jeCJ0/",
+        "status": 404,
+        "state": true
+    }
+},
+
+    {
+    "model": "main.urlmodel",
+    "pk": 8,
+    "fields": {
+        "url": "http://www.notexist4.com/",
+        "status": 404,
+        "state": true
+    }
+},
+    {
+    "model": "main.urlmodel",
+    "pk": 9,
+    "fields": {
+        "url": "https://kwirmedia.com/",
+        "status": 404,
+        "state": true
+    }
+},
+    {
+    "model": "main.urlmodel",
+    "pk": 10,
+    "fields": {
+        "url": "https://twitter.com/uae_detainees/",
+        "status": 404,
+        "state": true
+    }
+}
+]

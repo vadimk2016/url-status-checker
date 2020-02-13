@@ -1,0 +1,24 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>URL Status Check</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="{% static 'base.js' %}"></script>
+    </head>
+    <body>
+        <h2 class="header">URL Status Check</h2>
+        <div class="content">
+            <input id="interval" type="number" value="5">  <button onclick="setCheckInterval();">Set interval</button>
+            {% for url in urls %}
+                <div style="margin: 10px 0 10px 0">
+                    <a href="{{ url.url }}">{{ url.url }}</a>
+                    <label id="url_status_{{ url.id }}">404</label>
+                    <button id="url_check_{{ url.id }}" onclick="switch_state({{ url.id }})">{% if url.state %}Stop{% else %}Start{% endif %}</button>
+                </div>
+            {% endfor %}
+        </div>
+    </body>
+</html>
