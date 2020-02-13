@@ -7,3 +7,6 @@
 - `python manage.py migrate`
 - `python manage.py loaddata fixtures/test.json`
 - `python manage.py runserver` 
+## Credentials
+User: admin  
+Password: admin
